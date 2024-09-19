@@ -40,7 +40,7 @@ for (let i = 10; i >= 1; i--) {
 
 console.log("Task: E");
 
-for (let i = 10; i >= 1; i--) {
+for (let i = 2; i <= 100; i += 2) {
   console.log(i);
 }
 
