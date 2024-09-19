@@ -13,6 +13,7 @@ const millimetersOfRain = 10;
 
 console.log("Task: B");
 
+const daysInAYear = 365;
 const secondsIn25Hours = hoursInADay * 2.5 * minutesInAnHour * secondsInAMinute;
 const minutesIn123Days = daysInAYear * 123 * minutesInAnHour;
 
