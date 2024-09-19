@@ -60,14 +60,15 @@ console.log("Task: G");
 
 const DICTIONARY_ML = {
   no: {
-    hello: "Hallo",
-    howAreYou: "Hvordan har du det?"
+    hello: "Hello there",
+    howAreYou: "How are you doing?"
   },
   en: {
     hello: "Hi",
-    howAreYou: "How are you?"
+    howAreYou: "How are you?",
+    goodQuestionsLatly: "Gotten any good questions lately?"
   }
 };
 
 console.log(`${DICTIONARY_ML.en.hello} Christian ${DICTIONARY_ML.en.howAreYou}`); //-> Hi Christian, how are you?
-console.log(`${DICTIONARY_ML.en.goodQuestionsLately}`); //-> Gotten any good questions lately?
+console.log(`${DICTIONARY_ML.en.goodQuestionsLatly}`); //-> Gotten any good questions lately?
